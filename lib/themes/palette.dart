@@ -7,6 +7,12 @@ class Palette {
 
   static const Color logoColor = Color.fromARGB(255, 36, 209, 179);
 
+  static const Color BackgroundColor = Color.fromARGB(255, 3, 11, 13);
+
+  static const Color buttonColorFocus = Color.fromARGB(255, 229, 128, 37);
+
+  static const Color buttonColor = Color.fromARGB(255, 214, 115, 26);
+
   static const LinearGradient createRoomGradient = LinearGradient(
     colors: [Color(0xFF496AE1), Color(0xFFCE48B1)],
   );

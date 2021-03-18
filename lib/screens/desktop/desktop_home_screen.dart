@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_f2f/components/desktop_app_bar.dart';
+import 'package:flutter_f2f/components/components.dart';
 
 class DesktopHomeScreen extends StatefulWidget {
   @override
@@ -15,6 +15,7 @@ class _DesktopHomeScreenState extends State<DesktopHomeScreen> {
         preferredSize: Size(screenSize.width, 100.0),
         child: DesktopAppBar(),
       ),
+      body: DesktopMainSection(),
     );
   }
 }
