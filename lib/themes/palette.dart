@@ -9,7 +9,11 @@ class Palette {
 
   static const Color BackgroundColor = Color.fromARGB(255, 3, 11, 13);
 
+  static const Color BackgroundWhiteColor = Color.fromARGB(255, 251, 251, 251);
+
   static const Color buttonColorFocus = Color.fromARGB(255, 229, 128, 37);
+
+  static const Color blackTextColor = Color.fromARGB(200, 20, 18, 18);
 
   static const Color buttonColor = Color.fromARGB(255, 214, 115, 26);
 

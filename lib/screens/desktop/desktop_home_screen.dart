@@ -11,11 +11,17 @@ class _DesktopHomeScreenState extends State<DesktopHomeScreen> {
   Widget build(BuildContext context) {
     final Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size(screenSize.width, 100.0),
-        child: DesktopAppBar(),
-      ),
-      body: DesktopMainSection(),
-    );
+        appBar: PreferredSize(
+          preferredSize: Size(screenSize.width, 100.0),
+          child: DesktopAppBar(),
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              DesktopMainSection(),
+              DesktopFeatureSection(),
+            ],
+          ),
+        ));
   }
 }
