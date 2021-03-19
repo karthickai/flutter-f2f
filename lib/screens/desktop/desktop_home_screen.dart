@@ -20,6 +20,7 @@ class _DesktopHomeScreenState extends State<DesktopHomeScreen> {
             children: [
               DesktopMainSection(),
               DesktopFeatureSection(),
+              DesktopFooter(),
             ],
           ),
         ));

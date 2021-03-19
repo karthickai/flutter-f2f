@@ -16,10 +16,11 @@ class _DesktopFeatureSectionState extends State<DesktopFeatureSection> {
       color: Palette.BackgroundWhiteColor,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-              width: 700,
-              height: 300,
+              width: 650,
+              height: 400,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,7 +38,7 @@ class _DesktopFeatureSectionState extends State<DesktopFeatureSection> {
                     height: 20,
                   ),
                   Text(
-                    'Our Smart AI Engine will Blur  all your movie NSFW scenes including (Kiss, Nudity..). Just upload your movie in our portal within few minutes all your unwanted content in your movie is blurred out. finally download and safely watch the movie with your family!',
+                    'Our Smart AI Engine will Blur all your movie NSFW scenes including (Kiss, Nudity..) Just upload your movie in our portal within few minutes all your unwanted content in your movie is blurred out. finally download and safely watch the movie with your family!',
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
@@ -47,7 +48,7 @@ class _DesktopFeatureSectionState extends State<DesktopFeatureSection> {
                 ],
               )),
           SizedBox(
-            width: 100,
+            width: 50,
           ),
           Container(
             width: 400,

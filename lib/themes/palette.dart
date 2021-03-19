@@ -11,6 +11,8 @@ class Palette {
 
   static const Color BackgroundWhiteColor = Color.fromARGB(255, 251, 251, 251);
 
+  static const Color FooterBackgroundColor = Color.fromARGB(255, 26, 29, 37);
+
   static const Color buttonColorFocus = Color.fromARGB(255, 229, 128, 37);
 
   static const Color blackTextColor = Color.fromARGB(200, 20, 18, 18);

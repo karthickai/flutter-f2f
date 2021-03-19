@@ -40,10 +40,11 @@ class _DesktopAppBarState extends State<DesktopAppBar> {
                 Text(
                   "L4Dimensions",
                   style: TextStyle(
+                      fontFamily: 'LogoFont',
                       color: Colors.white,
-                      fontSize: 30.0,
-                      fontWeight: FontWeight.w700,
-                      letterSpacing: 1.0),
+                      fontSize: 32.0,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 1.8),
                 )
               ],
             ),
@@ -120,6 +121,7 @@ class _DesktopAppBarState extends State<DesktopAppBar> {
                           fontSize: 21.0),
                     ),
                     onPressed: () {
+                      Navigator.pushNamed(context, '/login');
                       print('Pressed');
                     }),
                 SizedBox(

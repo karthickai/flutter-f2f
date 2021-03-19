@@ -11,12 +11,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'L4Dimensions Website',
+      initialRoute: '/',
+      routes: {
+        '/login': (context) => LoginScreen(),
+        '/': (context) => NavScreen(),
+      },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           scaffoldBackgroundColor: Palette.scaffold),
-      home: NavScreen(),
+      // home: NavScreen(),
     );
   }
 }

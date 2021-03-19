@@ -29,6 +29,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.19.3
+  flutter_bloc: ^7.0.0
+  equatable: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -47,10 +49,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/L4Dimensions.svg
-    - assets/images/BackgroundImage.svg
-    - assets/images/BackgroundImageTVRemote.svg
-    - assets/images/BackgroundImageMask.svg
+    - assets/images/
+    # - assets/images/L4Dimensions.svg
+    # - assets/images/BackgroundImage.svg
+    # - assets/images/BackgroundImageTVRemote.svg
+    # - assets/images/BackgroundImageMask.svg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -68,6 +71,10 @@ flutter:
     - family: TitleFont
       fonts:
         - asset: assets/fonts/aAtomicMd.ttf
+
+    - family: LogoFont
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
 
   #   - family: Trajan Pro
   #     fonts:

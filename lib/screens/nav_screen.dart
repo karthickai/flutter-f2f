@@ -11,7 +11,7 @@ class NavScreen extends StatefulWidget {
 class _NavScreenState extends State<NavScreen> {
   @override
   Widget build(BuildContext context) {
-    return Responsive.isDesktop(context)
+    return Responsive.isDesktop(context) || Responsive.isTablet(context)
         ? DesktopHomeScreen()
         : MobileHomeScreen();
   }
