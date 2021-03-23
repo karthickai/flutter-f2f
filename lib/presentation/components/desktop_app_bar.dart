@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_f2f/themes/palette.dart';
+import 'package:flutter_f2f/core/constants/constants.dart';
+import 'package:flutter_f2f/core/themes/palette.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class DesktopAppBar extends StatefulWidget {
@@ -121,7 +122,8 @@ class _DesktopAppBarState extends State<DesktopAppBar> {
                           fontSize: 21.0),
                     ),
                     onPressed: () {
-                      Navigator.pushNamed(context, '/login');
+                      Navigator.pushNamed(context, '/login',
+                          arguments: {"authRepository": Core.authRepository});
                       print('Pressed');
                     }),
                 SizedBox(
@@ -131,7 +133,9 @@ class _DesktopAppBarState extends State<DesktopAppBar> {
                   width: 100,
                   height: 40,
                   child: ElevatedButton(
-                    onPressed: () => {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/signup');
+                    },
                     style: ElevatedButton.styleFrom(
                       primary: Palette.buttonColor, // background
                       onPrimary: Colors.white, // foreground

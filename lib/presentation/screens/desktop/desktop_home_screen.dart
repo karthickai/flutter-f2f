@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_f2f/components/components.dart';
+import 'package:flutter_f2f/presentation/components/components.dart';
 
 class DesktopHomeScreen extends StatefulWidget {
   @override

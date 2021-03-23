@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_f2f/themes/palette.dart';
+import 'package:flutter_f2f/core/themes/palette.dart';
 import 'package:flutter_svg/svg.dart';
 
 class DesktopMainSection extends StatefulWidget {
